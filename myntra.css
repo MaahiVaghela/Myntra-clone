@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+/* .flex1{
+  display: flex;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20px;
+} */
+
+
+ nav{
+   display: flex;
+   justify-content: space-evenly;
+   min-width: 400px;
+   align-items: center;
+   height: 70px;
+   box-sizing: border-box;
+}
+.left img{
+    height: 36px;
+    width: 44px;
+   padding-left: 30px;
+    margin:-72px -95px;
+   
+}
+.left ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 100vw;
+  width: 100vw;
+ padding: 0 10vw;
+ margin: auto;
+ box-sizing: border-box;
+}
+header{
+  position: fixed;
+  top: 0;
+  background-color: white;
+ height: 75px;
+ min-width: 400px;
+ justify-content: space-between;
+ 
+}
+nav ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px 0px;
+  z-index: 10;
+  margin: 2px 15px;
+  border-bottom: 4px white solid;
+  box-sizing: border-box;
+}
+nav ul li:hover{
+  border-bottom: 4px rgb(234, 76, 102) solid;
+  box-sizing: border-box;
+.container{
+    opacity: 0.5;
+    background-color: #282c3f;
+  }
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+li a sup{
+  color: rgb(234, 76, 102);
+  font-size: 10px;
+  padding-left: 4px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  
+}
+.right input{
+  height: 35px;
+  width: 463px;
+}
+.section1{
+  background-color:white;
+  height: 150vw;
+}
+.search{
+  height: 40px;
+  min-width: 48px;
+  width: 0%;
+  display: flex;
+  align-items: center;
+}
+.search-input{
+color: #696e79;
+background-color: #f5f5f6;
+flex-grow: 1;
+height: 40px;
+border: 0;
+border-radius: 0 4px 4px 0;
+}
+.search-icon{
+  box-sizing: content-box;
+  height: 17px;
+  padding: 10px;
+
+  background-color: #f5f5f6;
+  color: #696e79;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+} 
+.bar{
+    display: flex;
+    min-width: 100px;
+    width: 200px;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-right: -99px;
+    margin-left: 30px;
+}
+.action-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 12px;
+  font-weight: 200;
+  margin-right: 27px ;
+}
+.action-container span{
+  font-weight:100;
+}
+/* .bar .profile:hover{
+  border-bottom: 4px rgb(234, 76, 102) solid;
+  
+} */
+.section1{
+  width: 75vw;
+  max-width: 100%;
+}
+.section1 .coupon{
+  margin-top: 98px;
+  height: 120px;
+  width: 175%;
+  top: 110px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 97px 0 0 -305px ;
+  cursor: pointer;
+}
+.banner{
+  height: auto;
+  width: 117%;
+  margin: 0px -45px;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.firsthalf{
+  cursor: pointer;
+  width: 76%;
+  height: 450px;
+  margin: 19px 0 0 -29px;
+}
+.secondhalf{
+    cursor: pointer;
+    width: 76%;
+    height: 450px;
+    margin: 19px 0 0 0px;
+}
+.alert{
+  width: 181%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  margin: 10px -334px;
+  cursor: pointer;
+}
+.code{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first_code{
+  height: 150px;
+  width: 100%;
+  cursor: pointer;
+}
+.second_code{
+  height: 150px;
+  width: 100%;
+  cursor: pointer;
+}
+.deals{
+  width: 181%;
+  height: 118px;
+  margin: 0 -334px ;
+}
+.first_row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 0 0;
+  cursor: pointer;
+}
+.clothes{
+   width:168px
+}
+.products{
+  width: 152px;
+  cursor: pointer;
+}
+.category1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.shop{
+  width: 253px;
+  cursor: pointer;
+}
+.app{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-banner{
+  cursor: pointer;
+  width: 182%;
+  height: 300px;
+  margin: 0px 0 0 11px;
+}
+.footer_container {
+  padding: 1395px 0px 40px 0px;
+  background: #FAFBFC;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 0 ;
+  cursor: pointer;
+}
+
+.footer_column h3 {
+  color: #282c3f;
+  font-size: 12px;
+  margin-bottom: 25px;
+  font-weight: 300px;
+  cursor: pointer;
+}
+
+.footer_column a {
+  color: #696b79;
+  font-size: 15px;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.google{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.app_img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  cursor: pointer;
+  
+}
+.social_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 165px;
+  cursor: pointer;
+
+}
+.social_media{
+  width: 24px;
+  height: 25px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.address {
+  text-decoration: none;
+  padding-bottom: 5px;
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.customer-satisfaction{
+  margin-bottom: 30px;
+}
+.original{
+  margin-bottom: 30px;
+  color: black;
+  opacity: 0.8;
+}
+.office-address-content{
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+.other-info-heading{
+  font-weight: 600;
+  letter-spacing: normal;
+  color: black;
+  font-size: 15px;
+  
+}
+.other-info-para-content{
+  margin-top: 8px;
+  margin-bottom: 30px;
+  font-size: 13px;
+  
+}
+.horizontal-line{
+  margin-bottom: 30px;
+  opacity: 0.2;
+  height: 0.3px;
+}
+.para-content{
+  margin-top: 25px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+footer{
+  color: #696b79;
+  justify-content: center;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  padding: 0 200px;
+  
+}
+.content-heading{
+  color: black;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+.office-address-content h4{
+  color:#5f616c;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+/* .populae-searches{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+
+.copyright-container{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.url .flipkart {
+  padding-left: 40px;
+}
+.men-section-items{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  width: 1265px;
+  height: 618px;
+  right: 355px;
+  left: -410px;
+  bottom: -355px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 15px;
+  z-index: 10;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.women-section-items{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  width: 1265px;
+  height: 618px;
+  right: 355px;
+  left: -410px;
+  bottom: -355px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 15px;
+  z-index: 10;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.kids-section-items{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  width: 1700px;
+  height: 600px;
+  right: 355px;
+  left: -410px;
+  bottom: -355px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 15px;
+  z-index: 10;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.home-section-items{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 1050px;
+  position: relative;
+  height: 618px;
+  right: 355px;
+  left: -410px;
+  bottom: -355px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom:15px;
+  z-index: 10;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+.beauty-section-items{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  width: 1265px;
+  height: 618px;
+  right: 355px;
+  left: -410px;
+  bottom: -355px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 15px;
+  z-index: 10;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.col-1{
+  margin-right: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.col-2{
+  margin-right: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.col-3{
+  margin-right: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.col-4{
+  margin-right: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.col-5{
+  margin-right: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.category{
+  margin-bottom: 11px;
+}
+.category-items{
+  margin-bottom: 80px;
+  line-height: 1.6;
+  font-size: 14px;
+  opacity: 0.95;
+  cursor: pointer;
+}
+.horizontal-line2{
+  margin-bottom: 18px;
+  margin-top: 15px;
+  background-color: white;
+}
+.visibility{
+  display: none;
+  box-sizing: border-box;
+}
+.category-heading{
+  color: #ee6780;
+  font-weight: bold;
+  font-size: 14px;
+}
+.home{
+  width: 101px;
+}
